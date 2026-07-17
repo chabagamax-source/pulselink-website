@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — PulseLink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PulseLink
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#solution">What we do</a>
+      <a href="index.html#audience">Who it's for</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-cta">Talk to us</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" class="icon-burger"><path d="M4 7h16M4 12h16M4 17h16" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" class="icon-close" style="display:none;"><path d="M6 6l12 12M18 6L6 18" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+      <div class="eyebrow">Get in touch</div>
+      <h1>Let's talk about connecting your systems.</h1>
+      <p class="lead">Whether you run a hospital, a lab, a pharmacy, or you're a patient with a question — reach out. We usually reply within one business day.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Reach us directly</h2>
+        <p>Pick whichever's easiest — email works best for detailed questions, and we're happy to set up a call for hospitals and partners exploring an integration.</p>
+
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 7l9 6 9-6M3 7v10a2 2 0 002 2h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2z" stroke="currentColor" stroke-width="1.7"/></svg>
+          <div><h4>Email</h4><p>hello@pulselink.health</p></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.7"/></svg>
+          <div><h4>Phone</h4><p>Available on request — email us to schedule a call</p></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.1-7-11a7 7 0 0114 0c0 4.9-7 11-7 11z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <div><h4>Office</h4><p>Nairobi, Kenya</p></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <div><h4>Hours</h4><p>Monday–Friday, 8:00–17:00 EAT</p></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="role">I'm reaching out as a...</label>
+          <select id="role" name="role">
+            <option>Patient</option>
+            <option>Doctor / clinician</option>
+            <option>Hospital or clinic</option>
+            <option>Laboratory</option>
+            <option>Pharmacy</option>
+            <option>Insurer</option>
+            <option>Investor / partner</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="submit-row">
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <span class="form-status" id="formStatus" hidden>Thanks — we'll be in touch soon.</span>
+        </div>
+        <p class="form-note">This form is a preview and doesn't send email yet — connect it to your provider of choice (Formspree, a backend endpoint, etc.) before launch.</p>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          PulseLink
+        </a>
+        <p>Secure, patient-controlled health information exchange for Kenya — and, eventually, beyond.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="index.html#problem">The problem</a>
+        <a href="index.html#solution">What we do</a>
+        <a href="index.html#audience">Who it's for</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:hello@pulselink.health">hello@pulselink.health</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 PulseLink. Built for a healthcare system that talks to itself.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('formStatus').hidden = false;
+    this.reset();
+  });
+
+  (function(){
+    var params = new URLSearchParams(window.location.search);
+    var role = params.get('role');
+    var map = { Patient:'Patient', Hospital:'Hospital or clinic', Investor:'Investor / partner' };
+    if(role && map[role]){
+      var sel = document.getElementById('role');
+      sel.value = map[role];
+    }
+  })();
+</script>
+
+
+<script>
+  (function(){
+    var btn = document.getElementById('navToggle');
+    var nav = document.getElementById('navLinks');
+    if(!btn || !nav) return;
+    btn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.querySelector('.icon-burger').style.display = open ? 'none' : 'block';
+      btn.querySelector('.icon-close').style.display = open ? 'block' : 'none';
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded','false');
+        btn.querySelector('.icon-burger').style.display = 'block';
+        btn.querySelector('.icon-close').style.display = 'none';
+      });
+    });
+  })();
+</script>
+</body>
+</html>

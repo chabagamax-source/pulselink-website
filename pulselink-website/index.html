@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PulseLink — One record. Every provider who needs it.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="#top" class="brand">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PulseLink
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#solution">What we do</a>
+      <a href="index.html#audience">Who it's for</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-cta">Talk to us</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" class="icon-burger"><path d="M4 7h16M4 12h16M4 17h16" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" class="icon-close" style="display:none;"><path d="M6 6l12 12M18 6L6 18" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Health information exchange · Kenya</div>
+        <h1>One patient.<br>One health record.<br><em>Every</em> provider who needs it.</h1>
+        <p class="lead">PulseLink lets hospitals, clinics, labs, pharmacies and insurers share medical information securely — with the patient holding the key to who sees it, and for how long.</p>
+        <div class="hero-ctas">
+          <a href="#solution" class="btn btn-primary">See what we do</a>
+          <a href="contact.html" class="btn btn-ghost">Talk to us</a>
+        </div>
+        <span class="lang-badge">🇰🇪 Kiswahili version — coming soon</span>
+        <div class="audience-cta">
+          <a href="contact.html?role=Patient" class="aud-card">
+            <div class="k">Patient</div>
+            <h4>Get your own record</h4>
+            <p>Join and start bringing your history together.</p>
+          </a>
+          <a href="contact.html?role=Hospital" class="aud-card">
+            <div class="k">Provider</div>
+            <h4>Connect your institution</h4>
+            <p>Hospitals, labs, and pharmacies — talk to our integration team.</p>
+          </a>
+          <a href="contact.html?role=Investor" class="aud-card">
+            <div class="k">Investor</div>
+            <h4>See where we're headed</h4>
+            <p>Traction, model, and what we're raising for.</p>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="lines" viewBox="0 0 400 420">
+          <path d="M55 40 C 140 90, 160 140, 200 210"/>
+          <path d="M340 55 C 260 100, 220 150, 200 210"/>
+          <path d="M30 250 C 110 230, 160 220, 200 210"/>
+          <path d="M330 330 C 270 280, 230 240, 200 210"/>
+          <path d="M370 195 C 300 200, 240 205, 200 210"/>
+        </svg>
+        <div class="hub"><svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#FBF6EC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="frag f1"><span class="dot" style="background:#1C7A6E"></span>Lab results</div>
+        <div class="frag f2"><span class="dot" style="background:#E7A33E"></span>Prescriptions</div>
+        <div class="frag f3"><span class="dot" style="background:#BD5B39"></span>Imaging</div>
+        <div class="frag f4"><span class="dot" style="background:#1C7A6E"></span>Insurance</div>
+        <div class="frag f5"><span class="dot" style="background:#E7A33E"></span>Vaccinations</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACTION -->
+  <section class="traction">
+    <div class="wrap">
+      <div class="flag-inline">⚑ Placeholder — replace with real numbers before launch</div>
+      <div class="stat-row">
+        <div class="stat"><div class="num">[X]</div><div class="label">Hospitals &amp; clinics in pilot</div></div>
+        <div class="stat"><div class="num">[X]</div><div class="label">Patient records connected</div></div>
+        <div class="stat"><div class="num">[X]s</div><div class="label">Average record retrieval time</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="problem" id="problem">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Your health record is scattered across five buildings</h2>
+        <p>Lab results at one hospital. Prescriptions at another clinic. Imaging somewhere else entirely. None of it talks to each other.</p>
+      </div>
+      <div class="shard-row">
+        <div class="shard"><div class="loc">Hospital A</div><div class="name">Lab results</div></div>
+        <div class="shard"><div class="loc">Clinic B</div><div class="name">Prescriptions</div></div>
+        <div class="shard"><div class="loc">Imaging centre</div><div class="name">Scans &amp; X-rays</div></div>
+        <div class="shard"><div class="loc">Insurer</div><div class="name">Cover details</div></div>
+        <div class="shard"><div class="loc">Clinic C</div><div class="name">Vaccination history</div></div>
+      </div>
+      <p class="problem-close">The result: repeated tests, delayed treatment, records that get lost, and care decisions made without the full picture. <strong>PulseLink removes the silos</strong> — without asking any hospital to rip out the systems they already use.</p>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="solution" id="solution">
+    <div class="wrap">
+      <div class="key-visual">
+        <div class="eyebrow" style="color:#E7A33E;">The core idea</div>
+        <h3>The patient holds the key</h3>
+        <div class="pulse-line">
+          <svg viewBox="0 0 300 44" preserveAspectRatio="none"><polyline points="0,22 60,22 75,6 90,38 105,22 300,22" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <p>Every authorised provider connects through one secure layer — instead of every hospital keeping an isolated, disconnected record.</p>
+      </div>
+      <div class="solution-text">
+        <h2 style="color:var(--teal-900);font-size:clamp(1.6rem,2.6vw,2.1rem);margin-bottom:18px;">What we do</h2>
+        <p>PulseLink is a health information exchange: a secure layer that lets hospitals, clinics, laboratories, pharmacies and insurers share the medical information they're authorised to see — while the patient controls access.</p>
+        <p>We're not replacing the software your hospital already runs. We're the connective layer that lets it talk to everyone else's — the same way payment networks quietly connect banks without becoming a bank themselves.</p>
+        <p>Patients decide who sees their record, when they see it, and how long that access lasts. Nothing is shared by default.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT MOCKUP -->
+  <section>
+    <div class="wrap" style="display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center;">
+      <div class="mockup">
+        <div class="mockup-screen">
+          <div class="mockup-header"><span class="who">Hi, Amina</span><span class="badge"></span></div>
+          <div class="mockup-card"><div class="t">Lab results — Aga Khan Hospital</div><div class="s">Full blood count · 3 days ago</div></div>
+          <div class="mockup-card"><div class="t">Prescription — Dr. Otieno</div><div class="s">Amoxicillin 500mg · active</div></div>
+          <div class="mockup-card">
+            <div class="t">Share with Nairobi Hospital</div>
+            <div class="mockup-toggle"><span class="lbl">Access expires in 24 hours</span><span class="mockup-switch"></span></div>
+          </div>
+          <div class="mockup-card"><div class="t">Vaccination record</div><div class="s">Up to date</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="eyebrow">What it actually looks like</div>
+        <h2 style="color:var(--teal-900);font-size:clamp(1.6rem,2.6vw,2.1rem);margin-bottom:16px;">One app. Your whole record. A toggle for who sees it.</h2>
+        <p style="color:var(--ink-soft);font-size:1.05rem;margin-bottom:14px;">Open the app, see everything in one place, and grant a hospital or lab temporary access with one tap — down to a specific record, for a specific window of time.</p>
+        <p style="color:var(--ink-soft);font-size:1.05rem;">Built to work on an entry-level smartphone and a slow connection — most of Kenya's mobile users are, so we are too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="principles">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we build on</h2>
+        <p>Four principles that don't get compromised, however fast we grow.</p>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="1.7"/></svg>
+          <h3>Privacy first</h3>
+          <p>Records stay encrypted. Patients choose who can see them, and can revoke access at any time.</p>
+        </div>
+        <div class="p-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/><circle cx="18" cy="6" r="3" stroke="currentColor" stroke-width="1.7"/><circle cx="18" cy="18" r="3" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 10.5L15.5 7.5M8.5 13.5L15.5 16.5" stroke="currentColor" stroke-width="1.7"/></svg>
+          <h3>Interoperability</h3>
+          <p>Hospitals run different software. PulseLink bridges those systems instead of replacing them.</p>
+        </div>
+        <div class="p-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          <h3>Speed</h3>
+          <p>A doctor shouldn't wait days for records. Authorised information is available in seconds.</p>
+        </div>
+        <div class="p-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="1.7"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Security</h3>
+          <p>Encrypted databases, role-based permissions, and an audit log on every single action.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIENCE -->
+  <section id="audience">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Built for everyone in the room</h2>
+        <p>Six kinds of people rely on PulseLink to do their part of the job. Pick one to see how.</p>
+      </div>
+
+      <div class="tabbar" role="tablist">
+        <button class="tabbtn active" data-tab="patients">Patients</button>
+        <button class="tabbtn" data-tab="doctors">Doctors</button>
+        <button class="tabbtn" data-tab="hospitals">Hospitals</button>
+        <button class="tabbtn" data-tab="labs">Laboratories</button>
+        <button class="tabbtn" data-tab="pharmacies">Pharmacies</button>
+        <button class="tabbtn" data-tab="insurers">Insurers</button>
+      </div>
+
+      <div class="tabpanel active" id="panel-patients">
+        <div><h3>For patients</h3><div class="tagline">One lifelong record, in your hands</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>View your health records anytime</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Manage appointments</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Access prescriptions and lab results</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Choose exactly who can access your records</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Build one medical history that follows you for life</li>
+        </ul>
+      </div>
+
+      <div class="tabpanel" id="panel-doctors">
+        <div><h3>For doctors</h3><div class="tagline">The full picture, with consent</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Access patient history once consent is given</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Review previous diagnoses and medications</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Check allergies before prescribing</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Read lab reports and write prescriptions</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Record consultations directly</li>
+        </ul>
+      </div>
+
+      <div class="tabpanel" id="panel-hospitals">
+        <div><h3>For hospitals</h3><div class="tagline">Coordinate care, without a rebuild</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Cut down on repeated, duplicate testing</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Improve coordination across departments and referrals</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Manage patient records securely</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Integrate with the systems already in place</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Share verified information with other providers</li>
+        </ul>
+      </div>
+
+      <div class="tabpanel" id="panel-labs">
+        <div><h3>For laboratories</h3><div class="tagline">Results that reach the right clinician</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Upload verified results directly</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Share results straight to the treating clinician</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Cut down on paperwork</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Keep a trusted, tamper-evident record</li>
+        </ul>
+      </div>
+
+      <div class="tabpanel" id="panel-pharmacies">
+        <div><h3>For pharmacies</h3><div class="tagline">Verify before you dispense</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Verify prescriptions in real time</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduce prescription fraud</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Maintain an accurate dispensing history</li>
+        </ul>
+      </div>
+
+      <div class="tabpanel" id="panel-insurers">
+        <div><h3>For insurers</h3><div class="tagline">Faster claims, less fraud</div></div>
+        <ul class="cap-list">
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Verify treatment records directly</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Process claims faster</li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduce fraudulent claims</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST / BLOCKCHAIN -->
+  <section class="trust" id="trust">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How we prove nothing's been quietly changed</h2>
+        <p>Your medical record itself never touches a blockchain. Only a fingerprint of it does.</p>
+      </div>
+      <div class="flow">
+        <div class="flow-step"><div class="n">01</div><h4>Record is encrypted</h4><p>Your medical record is encrypted and stored securely.</p></div>
+        <div class="flow-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="flow-step"><div class="n">02</div><h4>A fingerprint is generated</h4><p>A one-way cryptographic hash is created from the record.</p></div>
+        <div class="flow-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="flow-step"><div class="n">03</div><h4>Fingerprint goes on-chain</h4><p>Only that fingerprint — never the record — is written to the blockchain.</p></div>
+        <div class="flow-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="flow-step"><div class="n">04</div><h4>Tampering shows immediately</h4><p>Alter the record and its fingerprint changes — proof, without exposing the data.</p></div>
+      </div>
+      <p class="trust-note">Every user type — patient, doctor, nurse, lab staff, pharmacist, administrator — has different permissions. Every action is logged. Every permission is controlled. Every access can be audited.</p>
+      <div class="sensitive-note">
+        <strong style="color:#fff;">On sensitive records:</strong> HIV status, mental health, and reproductive health records follow the exact same consent model as everything else — never surfaced to any provider without your explicit, specific approval, granted one request at a time. Nothing is shared by category or by default, and consent for one provider never implies consent for another.
+      </div>
+      <p style="margin-top:20px;font-size:0.88rem;color:#9FC2BC;">Built to align with Kenya's Data Protection Act (2019). [Placeholder — confirm and publish ODPC registration status before launch.]</p>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section class="vision">
+    <div class="wrap">
+      <h2>The goal isn't to be <em>another hospital app.</em></h2>
+      <p>It's to become the invisible network healthcare organisations rely on every day — the way payment networks quietly connect banks without ever replacing one. One trusted layer. Every provider connected. The patient always holding the key.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="#top" class="brand">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          PulseLink
+        </a>
+        <p>Secure, patient-controlled health information exchange for Kenya — and, eventually, beyond.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="index.html#problem">The problem</a>
+        <a href="index.html#solution">What we do</a>
+        <a href="index.html#audience">Who it's for</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:hello@pulselink.health">hello@pulselink.health</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 PulseLink. Built for a healthcare system that talks to itself.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.tabbtn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+      document.querySelectorAll('.tabpanel').forEach(p=>p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('panel-'+btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+
+
+<script>
+  (function(){
+    var btn = document.getElementById('navToggle');
+    var nav = document.getElementById('navLinks');
+    if(!btn || !nav) return;
+    btn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.querySelector('.icon-burger').style.display = open ? 'none' : 'block';
+      btn.querySelector('.icon-close').style.display = open ? 'block' : 'none';
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded','false');
+        btn.querySelector('.icon-burger').style.display = 'block';
+        btn.querySelector('.icon-close').style.display = 'none';
+      });
+    });
+  })();
+</script>
+</body>
+</html>

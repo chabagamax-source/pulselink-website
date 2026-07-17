@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — PulseLink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PulseLink
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#solution">What we do</a>
+      <a href="index.html#audience">Who it's for</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-cta">Talk to us</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" class="icon-burger"><path d="M4 7h16M4 12h16M4 17h16" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" class="icon-close" style="display:none;"><path d="M6 6l12 12M18 6L6 18" stroke="#0E4F49" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / FAQ</div>
+      <div class="eyebrow">Questions, answered</div>
+      <h1>Common questions about PulseLink.</h1>
+      <p class="lead">If you don't find what you're looking for here, <a href="contact.html" style="color:var(--rust);font-weight:600;">reach out directly</a>.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="faq-list">
+
+      <div class="faq-cat">For patients</div>
+      <div class="faq-item">
+        <button class="faq-q">Who can see my medical records?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>Only providers you've specifically granted access to — and only for as long as you allow. You can review and revoke access at any time from your account.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Does PulseLink cost anything for patients?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>Viewing and managing your own health record is free. Providers and institutions connecting to the exchange work under a separate arrangement — get in touch for details.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What happens if I switch hospitals?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>Nothing — that's the point. Your record isn't tied to one hospital's system. It follows you, and you decide which new provider gets access.</p></div>
+      </div>
+
+      <div class="faq-cat">For providers</div>
+      <div class="faq-item">
+        <button class="faq-q">Do we need to replace our existing hospital software?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>No. PulseLink is designed to connect to the systems you already run, rather than replace them. We integrate alongside your existing records software.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long does integration take?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>It depends on your existing systems and data structure. Reach out and we'll walk through a timeline specific to your institution.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What kind of institutions can join?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>Hospitals, clinics, laboratories, pharmacies, and insurers. Every institution goes through a verification process before it can request or share patient data.</p></div>
+      </div>
+
+      <div class="faq-cat">Security &amp; trust</div>
+      <div class="faq-item">
+        <button class="faq-q">Is my data stored on a blockchain?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>No. Your actual medical record is encrypted and stored in a secure database. Only a cryptographic fingerprint of the record is written to the blockchain, so tampering can be detected without ever exposing your data.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What happens if there's a data breach?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>Every access to every record is logged and auditable, which means unauthorized access is both harder to achieve and easier to detect. Full detail on our security model and breach procedures is in our <a href="privacy.html" style="color:var(--teal-700);font-weight:600;">Privacy Policy</a>.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I delete my data entirely?<svg class="plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <div class="faq-a"><p>You can request deletion of your account and personal data at any time, subject to legal and medical record-keeping requirements outlined in our <a href="privacy.html" style="color:var(--teal-700);font-weight:600;">Privacy Policy</a>.</p></div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M2 12h5l2-7 4 14 2-7h7" stroke="#0E4F49" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          PulseLink
+        </a>
+        <p>Secure, patient-controlled health information exchange for Kenya — and, eventually, beyond.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="index.html#problem">The problem</a>
+        <a href="index.html#solution">What we do</a>
+        <a href="index.html#audience">Who it's for</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:hello@pulselink.health">hello@pulselink.health</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 PulseLink. Built for a healthcare system that talks to itself.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      btn.parentElement.classList.toggle('open');
+    });
+  });
+</script>
+
+
+<script>
+  (function(){
+    var btn = document.getElementById('navToggle');
+    var nav = document.getElementById('navLinks');
+    if(!btn || !nav) return;
+    btn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.querySelector('.icon-burger').style.display = open ? 'none' : 'block';
+      btn.querySelector('.icon-close').style.display = open ? 'block' : 'none';
+    });
+    nav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded','false');
+        btn.querySelector('.icon-burger').style.display = 'block';
+        btn.querySelector('.icon-close').style.display = 'none';
+      });
+    });
+  })();
+</script>
+</body>
+</html>
